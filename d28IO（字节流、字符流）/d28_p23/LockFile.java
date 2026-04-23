@@ -5,7 +5,7 @@ import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
-public class Lock {
+public class LockFile {
     public static void main(String[] args) throws    IOException {
         File file = new File("d28IO（字节流、字符流）/d28_p23/小说.txt");
         lockFile(file);
